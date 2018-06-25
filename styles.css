@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://use.fontawesome.com/releases/v5.1.0/css/all.css');
+
+body {
+  margin: 30px;
+  font-family: "Roboto", sans-serif;
+}
+
+h3 {
+  display: inline-block;
+  margin: 0px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid black;
+}
+
+label {
+  margin-top: 30px;
+  display: block;
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 10px 20px 10px 20px;
+  border-radius: 3px;
+  margin-top: 10px;
+  display: block;
+  background-color: white;
+  outline: none;
+  border: 1px solid black;
+  transition: background-color 300ms ease, color 300ms ease;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #d8d8d8;
+}
+
+button:active {
+  background-color: black;
+  color: white;
+}
+
+pre {
+  display: inline-block;
+  outline: solid 1px #d8d8d8;
+  border-radius: 3px;
+  padding: 20px;
+  margin: none;
+}
