@@ -40,10 +40,47 @@ button:active {
   color: white;
 }
 
-pre {
+.copy {
+  color: #364958;
+  cursor: pointer;
+  transition: color 300ms ease;
+}
+
+.copy:hover {
+  color: #55828B;
+}
+
+.copied-tooltip {
+  opacity: .75;
+  background-color: #364958;
+  color: white;
+  padding: 10px;
+  border: solid 1px black;
+  position: absolute;
+  border-radius: 3px;
+  transition: opacity 500ms ease;
+}
+
+.output {
+  font-size: 12px;
+  white-space: pre-wrap;
   display: inline-block;
   outline: solid 1px #d8d8d8;
   border-radius: 3px;
   padding: 20px;
   margin: none;
+}
+
+.deletion {
+  background-color: #A3494F;
+  color: white;
+}
+
+pre {
+  position: absolute;
+  left: -2000px;
+  top: -2000px;
+  opacity: 0;
+  pointer-events: none;
+  z-index: -100;
 }
